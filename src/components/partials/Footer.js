@@ -55,12 +55,14 @@ export default class landing extends React.Component {
                         </div>
                     </div>
                     </section>
-
+ 
                 
                 <section className="pangea-footer presupuesto">
                     <div className="row">
-                        <div className="col-xs-12 col-sm-12 col-lg-3 img-parent"> <a href="https://www.pangea.es/"><img className="img-footer"
-                            src="../../assets/images/logo-header.png"/></a>
+                        <div className="col-xs-12 col-sm-12 col-lg-3 img-parent"> 
+                        <a href="https://www.pangea.es/">
+                            <img style={{padding: "5%"}} className="img-footer" src={require("../../assets/images/logo-header.png")} alt="logo-header"/>
+                        </a>
                         </div>
                         <div className="col-xs-12 col-md-4 col-lg-3">
                         <h3>INFORMACIÓN</h3>

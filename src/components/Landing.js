@@ -1,8 +1,10 @@
 import React from 'react'
-import Navbar from './partials/navbar'
-import MobileNavbar from './partials/mobileNavBar'
-import Footer from './partials/footer'
-import ModalHelp from './partials/modalHelp'
+import Navbar from './partials/Navbar'
+import MobileNavbar from './partials/MobileNavBar'
+import Footer from './partials/Footer'
+import ModalHelp from './partials/ModalHelp'
+import Luna from './partials/Luna'
+import Search from './partials/Search'
 import '../assets/css/A.css'
 
 export default class landing extends React.Component {
@@ -16,6 +18,8 @@ export default class landing extends React.Component {
             <div id="campaignPopupCont"></div>
                 <Navbar />
                 <MobileNavbar />
+                <Luna />
+                <Search />
                 <h1>ESTE ES UN EJEMPLO</h1>
                 <ModalHelp />
                 <Footer />

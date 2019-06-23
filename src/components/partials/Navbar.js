@@ -35,7 +35,7 @@ export default class landing extends React.Component {
                 <img class="navbar-img img-fluid"
                       alt="Logo pangea" title="Logo pangea"
                       data-src="https://www.pangea.es/web/img/logo-header.png.pagespeed.ce.L1cAmHTeZM.png"
-                      src="pangeas_files/logo-header.png"/></a></div>
+                      src={require("../../assets/images/logo-header.png")}/></a></div>
                 <div class="section-nav center-menu">
                   <div class="navigation-dest-navbar">
                     <div class="item-navigation-dest">
