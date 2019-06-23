@@ -9,7 +9,7 @@ export default class landing extends React.Component {
     
     render(){
         return(
-            <div>
+            <div style={{width: "100%"}}>
                 <Navbar />
                 <h1>ESTE ES UN EJEMPLO</h1>
                 <Footer />

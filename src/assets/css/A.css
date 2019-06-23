@@ -47,147 +47,146 @@
     font-family: Lato;
     font-style: normal;
     font-weight: 100;
-    src: local('Lato Light'), local('Lato-Light'), url(./fonts/lato/Lato-Light.ttf) format('woff')
+    src: local('Lato Light'), local('lato-light'), url(./lato-light.ttf) format('woff')
 }
 
 @font-face {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
-    src: local('Lato Light'), local('Lato-Light'), url(./fonts/lato/Lato-Light.ttf) format('woff')
+    src: local('Lato Light'), local('lato-light'), url(./lato-light.ttf) format('woff')
 }
 
 @font-face {
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
-    src: local('Lato Regular'), local('Lato-Regular'), url(./fonts/lato/Lato-Regular.ttf) format('woff')
+    src: local('Lato Regular'), local('lato-regular'), url(./lato-regular.ttf) format('woff')
 }
 
 @font-face {
     font-family: Lato;
     font-style: normal;
     font-weight: 700;
-    src: local('Lato Bold'), local('Lato-Bold'), url(./fonts/lato/Lato-Bold.ttf) format('woff')
+    src: local('Lato Bold'), local('lato-bold'), url(./lato-bold.ttf) format('woff')
 }
 
 @font-face {
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
-    src: local('Lato Black'), local('Lato-Black'), url(./fonts/lato/Lato-Black.ttf) format('woff')
+    src: local('Lato Black'), local('lato-black'), url(./lato-black.ttf) format('woff')
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 100;
-    src: local('Lato Light italic'), local('Lato-Light'), url(./fonts/lato/Lato-Lightitalic.ttf) format('woff')
+    /*src: local('Lato Light italic'), local('lato-light'), url(./lato-lightitalic.ttf) format('woff')*/
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 300;
-    src: local('Lato Light italic'), local('Lato-Light'), url(./fonts/lato/Lato-Lightitalic.ttf) format('woff')
+    /*src: local('Lato Light italic'), local('lato-light'), url(./lato-lightitalic.ttf) format('woff')*/
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 400;
-    src: local('Lato Regular'), local('Lato-Regular'), url(./fonts/lato/Lato-Regularitalic.ttf) format('woff')
+    /*src: local('Lato Regular'), local('lato-regular'), url(./lato-regularitalic.ttf) format('woff')*/
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 700;
-    src: local('Lato Bold'), local('Lato-Bold'), url(./fonts/lato/Lato-Bolditalic.ttf) format('woff')
+    /*src: local('Lato Bold'), local('lato-bold'), url(./lato-bolditalic.ttf) format('woff')*/
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 900;
-    src: local('Lato Black'), local('Lato-Black'), url(./fonts/lato/Lato-Blackitalic.ttf) format('woff')
+   /* src: local('Lato Black'), local('lato-black'), url(./lato-blackitalic.ttf) format('woff')*/
 }
-
+/*
 @font-face {
     font-family: Lato;
     font-style: normal;
     font-weight: 100;
-    src: url(./fonts/lato/LatoLatin-Hairline.ttf) format('truetype')
+    src: url(./latoLatin-Hairline.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Lato;
     font-style: normal;
     font-weight: 300;
-    src: url(./fonts/lato/LatoLatin-Light.ttf) format('truetype')
+    src: url(./latoLatin-Light.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Lato;
     font-style: normal;
     font-weight: 400;
-    src: url(./fonts/lato/LatoLatin-Regular.ttf) format('truetype')
+    src: url(./latoLatin-Regular.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Lato;
     font-style: normal;
     font-weight: 700;
-    src: url(./fonts/lato/LatoLatin-Bold.ttf) format('truetype')
+    src: url(./latoLatin-Bold.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
-    src: url(./fonts/lato/LatoLatin-Black.ttf) format('truetype')
+    src: url(./latoLatin-Black.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 100;
-    src: url(./fonts/lato/LatoLatin-HairlineItalic.ttf) format('truetype')
+    src: url(./latoLatin-HairlineItalic.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 300;
-    src: url(./fonts/lato/LatoLatin-LightItalic.ttf) format('truetype')
+    src: url(./latoLatin-LightItalic.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 400;
-    src: url(./fonts/lato/LatoLatin-Italic.ttf) format('truetype')
+    src: url(./latoLatin-Italic.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 700;
-    src: url(./fonts/lato/LatoLatin-BoldItalic.ttf) format('truetype')
+    src: url(./latoLatin-BoldItalic.ttf) format('truetype')
 }
 
 @font-face {
     font-family: Lato;
     font-style: italic;
     font-weight: 900;
-    src: url(./fonts/lato/LatoLatin-BlackItalic.ttf) format('truetype')
+    src: url(./latoLatin-BlackItalic.ttf) format('truetype')
 }
-
 @font-face {
     font-family: Geometria-extra-light;
-    src: url(fonts/Geometria-ExtraLight.otf);
-    src: url(fonts/Geometria-ExtraLight.eot);
-    src: url(fonts/Geometria-ExtraLight.eot?#iefix) format("embedded-opentype"), url(fonts/Geometria-ExtraLight.woff) format("woff"), url(fonts/Geometria-ExtraLight.ttf) format("truetype"), url(fonts/Geometria-ExtraLight.svg) format("svg");
+    src: url(./Geometria-ExtraLight.otf);
+    src: url(./Geometria-ExtraLight.eot);
+    src: url(./Geometria-ExtraLight.eot?#iefix) format("embedded-opentype"), url(fonts/Geometria-ExtraLight.woff) format("woff"), url(fonts/Geometria-ExtraLight.ttf) format("truetype"), url(fonts/Geometria-ExtraLight.svg) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -209,20 +208,20 @@
     font-weight: 400;
     font-style: normal
 }
-
+*/
 @font-face {
     font-family: Geometria-bold;
-    src: url(fonts/Geometria-Bold.otf);
-    src: url(fonts/Geometria-Bold.eot);
-    src: url(fonts/Geometria-Bold.eot?#iefix) format("embedded-opentype"), url(fonts/Geometria-Bold.woff) format("woff"), url(fonts/Geometria-Bold.ttf) format("truetype"), url(fonts/Geometria-Bold.svg) format("svg");
+    /*src: url(./Geometria-Bold.otf);*/
+    src: url(./Geometria-Bold.eot);
+    src: url(./Geometria-Bold.eot?#iefix) format("embedded-opentype"), url(./Geometria-Bold.woff) format("woff"), url(./Geometria-Bold.ttf) format("truetype");
     font-weight: 400;
     font-style: normal
 }
 
-@font-face {
+/*@font-face {
     font-family: amenities;
-    src: url(fonts/amenities.eot);
-    src: url(amenities.eot?#iefix) format("embedded-opentype"), url(fonts/amenities.woff) format("woff"), url(fonts/amenities.ttf) format("truetype"), url(fonts/amenities.svg#amenities) format("svg");
+    src: url(./amenities.eot);
+    src: url(amenities.eot?#iefix) format("embedded-opentype"), url(./amenities.woff) format("woff"), url(./amenities.ttf) format("truetype"), url(./amenities.svg#amenities) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -242,7 +241,7 @@
     font-weight: 400;
     font-style: normal
 }
-
+*/
 html {
     font-family: sans-serif;
     line-height: 1.15;
