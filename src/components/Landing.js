@@ -14,8 +14,6 @@ export default class landing extends React.Component {
                 <h1>ESTE ES UN EJEMPLO</h1>
                 <Footer />
             </div>
-            
-            
         );
     }
 }
