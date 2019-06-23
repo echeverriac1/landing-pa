@@ -7,7 +7,7 @@ export default class landing extends React.Component {
     
     render(){
         return(
-            <nav class="navbar navbar-fixed-top navbar-destinations hidden-md-down">
+            <nav id="navbar" class="navbar navbar-fixed-top navbar-destinations hidden-md-down">
               <div class="dest-menu-top">
                 <a data-toggle="modal" data-target="#ModalLogin" rel="nofollow">
                   <div class="dest-menu-top-item">
