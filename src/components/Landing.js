@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './partials/navbar'
 import Footer from './partials/footer'
+import '../assets/css/A.css'
 
 export default class landing extends React.Component {
     constructor(props){
