@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../public/assets/css/A.css'
 
 export default class landing extends React.Component {
     constructor(props){
