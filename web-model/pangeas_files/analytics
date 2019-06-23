@@ -1,0 +1,27 @@
+function piResponse() {
+piSetCookie('visitor_id436272', '614356443', 3650);
+piSetCookie('visitor_id436272-hash', '52baad13daf742673703aa607a1b7801547eb5850fd542eed32c8e4381aea15da9f6e832efa6eaf89fb88425f26dc8930e3d0a01', 3650);
+
+if (document.location.protocol != "https:" || (document.location.protocol == "https:" && true)) {
+var analytics_link = document.location.protocol + "//" + "registro.pangea.es/analytics?";
+pi.tracker.visitor_id='614356443';
+
+pi.tracker.visitor_id_sign='52baad13daf742673703aa607a1b7801547eb5850fd542eed32c8e4381aea15da9f6e832efa6eaf89fb88425f26dc8930e3d0a01';
+
+var variables = 'conly=true';
+for (property in pi.tracker) {
+	variables += "&"+property+"="+pi.tracker[property];
+}
+var headID = document.getElementsByTagName("head")[0];
+piScriptObj[piScriptNum] = document.createElement('script');
+piScriptObj[piScriptNum].type = 'text/javascript';
+piScriptObj[piScriptNum].src = analytics_link + variables;
+headID.appendChild(piScriptObj[piScriptNum]);
+piScriptObj[piScriptNum].onload = function() { return; }
+}
+}
+piResponse();
+
+
+
+
